@@ -66,6 +66,7 @@ wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/create
 wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/install.sh | bash
 ```
 
+<br />
 ---
 <br />
 
@@ -123,7 +124,7 @@ setelah mendapatkan session maka akan otomatis merubah tampilan ke dalam panel
 
 Selebihnya anda bisa merubah data dan menghapusnya. Semua yang tersimpan akan dieksekusi jika <b>menerima</b> pesan yang sesuai dengan data yang ada.
 
-
+<br />
 ---
 <br />
 

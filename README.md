@@ -31,7 +31,6 @@
 WhatsApp kini berkembang pesat seiring dengan waktu yang ada, kebutuhan akan kemampuan WhatsApp perlu ditingkatkan lagi supaya lebih produktif dan efisien. Dengan begitu saya bertekat membuat sebuah WhatsApp BOT untuk anda supaya bisa lebih mudah menjalani kehidupan ini :) ...
 
 ---
-
 <br />
 
 # PERSIAPAN
@@ -67,7 +66,7 @@ wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/create
 wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/install.sh | bash
 ```
 
-
+---
 <br />
 
 
@@ -124,9 +123,9 @@ setelah mendapatkan session maka akan otomatis merubah tampilan ke dalam panel
 
 Selebihnya anda bisa merubah data dan menghapusnya. Semua yang tersimpan akan dieksekusi jika <b>menerima</b> pesan yang sesuai dengan data yang ada.
 
+
+---
 <br />
-
-
 
 
 

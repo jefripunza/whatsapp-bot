@@ -18,11 +18,15 @@
 [![Custom badge](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://fb.com/jefripunza/)
 [![Custom badge](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jefripunza/)
 [![Custom badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefri-herdi-triyanto-ba76a8106/)
+[![Custom badge](https://img.shields.io/badge/Website-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)](https://jefriherditriyanto.com/)
 
 # Introduction
 [![Custom badge](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Custom badge](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/)
 [![Custom badge](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 [![Custom badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://www.whatsapp.com/)
+[![Custom badge](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/)
+[![Custom badge](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://github.com/puppeteer/puppeteer)
 
 WhatsApp kini berkembang pesat seiring dengan waktu yang ada, kebutuhan akan kemampuan WhatsApp perlu ditingkatkan lagi supaya lebih produktif dan efisien. Dengan begitu saya bertekat membuat sebuah WhatsApp BOT untuk anda supaya bisa lebih mudah menjalani kehidupan ini :) ...
 
@@ -30,65 +34,42 @@ WhatsApp kini berkembang pesat seiring dengan waktu yang ada, kebutuhan akan kem
 
 <br />
 
-# DEMO
-
-<a href="https://portabledb.jefriherditriyanto.com/" target="_blank" rel="norefferer">https://portabledb.jefriherditriyanto.com/</a> <br/>
-
-<br />
-
 # PERSIAPAN
 
 Langkah-langkah untuk menggunakan project ini :
 
-## 1. Settings Password di PHP
+## 1. install <b>Termux</b>
 
-```php
-//Password
-$PASSWORD = "password"; // change this, default: password
+Download dan install Aplikasi Android Termux dengan cara <a href="https://f-droid.org/repo/com.termux_117.apk" target="_blank" rel="norefferer">klik disini!</a> <br/>
+
+
+
+## 2. install <b>Ubuntu Desktop Environment</b>
+
+### Copy dan Paste di dalam terminal Termux
+
+```bash
+wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/create_ubuntu.sh | bash
 ```
 
-## 2. Settings di Website
+### Setelah selesai menginstall <b>Ubuntu Desktop Environment</b>, masuk kedalam Environment nya...
 
-### Tambahkan CDN yang dibutuhkan
-
-```html
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+```bash
+./start-ubuntu.sh
 ```
 
-### Tambahkan Javascript untuk konektor
 
-```javascript
-const url = "/pDB.php", // change this if change PortableDB file
-  password = "password"; // change this, default: password
+## 3. install <b>All Requirements</b> in Ubuntu
 
-function getData() {
-  const data = JSON.parse(
-    $.ajax({
-      type: "GET",
-      url: url + `?password=${password}&execute=list`,
-      async: false,
-    }).responseText
-  );
-  if (data.success) {
-    return data.data;
-  } else {
-    return {
-      message: "request error!",
-    };
-  }
-}
+### Copy dan Paste di dalam terminal Termux
 
-function sendRequest(execute, object, callback) {
-  $.post(url + `?password=${password}&execute=${execute}`, object).done(
-    function (data) {
-      const response = JSON.parse(data);
-      callback(response);
-    }
-  );
-}
+```bash
+wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/install.sh | bash
 ```
+
 
 <br />
+
 
 # PENGGUNAAN
 

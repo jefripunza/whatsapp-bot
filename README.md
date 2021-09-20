@@ -91,14 +91,14 @@ II. Start Aplikasi
 ```bash
 cd && nodemon
 ```
-#### jika anda berada didalam ubuntu environtment
+#### jika anda berada didalam ubuntu environtment (Linux Desktop)
 ```bash
 cd && nodemon
 ```
 
-### 2. Lihatlah IP lokal anda
+### 2. Lihatlah IP:PORT lokal anda
 
-### 3. Buka di Browser HP (hanya bisa dibuka di HP)
+### 3. Buka IP:PORT di Browser HP (hanya bisa dibuka di HP)
 
 ### 4. Login pada Panel
 password default :
@@ -127,6 +127,7 @@ setelah mendapatkan session maka akan otomatis merubah tampilan ke dalam panel
 Selebihnya anda bisa merubah data dan menghapusnya. Semua yang tersimpan akan dieksekusi jika <b>menerima</b> pesan yang sesuai dengan data yang ada.
 
 <br />
+
 ---
 <br />
 

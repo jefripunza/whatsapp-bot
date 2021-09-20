@@ -47,7 +47,7 @@ Download dan install Aplikasi Android Termux dengan cara <a href="https://f-droi
 ## 2. install <b>Ubuntu Desktop Environment</b>
 
 ### Copy dan Paste di dalam terminal Termux
-
+pada bagian ini membutuhkan waktu estimasi sekitar 20-30 menit tergantung kecepatan internet dan performa perangkat masing-masing.
 ```bash
 wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/create_ubuntu.sh | bash
 ```

@@ -32,10 +32,12 @@ WhatsApp kini berkembang pesat seiring dengan waktu yang ada, kebutuhan akan kem
 
 ---
 <br />
+<b></b>
 
 # PERSIAPAN
 
 Langkah-langkah untuk menggunakan project ini :
+untuk user <b>Termux</b> lakukan dari nomor 1 & untuk user <b>Linux Desktop</b> langsung ke nomor 3
 
 ## 1. install <b>Termux</b>
 
@@ -109,7 +111,7 @@ bisa anda rubah passwordnya pada file <b>password</b>
 
 ## Cara Scan Barcode (untuk pertama kali/new session)
 
-### 1. Harus menggunakan 2 HP <b></b>
+### 1. Harus menggunakan 2 HP
 Hape ke 1 adalah <b>pemilik Whatsapp</b> dan Hape ke 2 adalah bertugas untuk <b>login panel & view barcode</b>
 
 ### 2. Tunggu sampai aplikasi mendapatkan session

@@ -73,40 +73,62 @@ wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/instal
 
 # PENGGUNAAN
 
-Didalam penggunaannya <b>"WhatsApp BOT"</b> hal yang paling pertamakali dilakukan adalah <b>Scan Barcode</b> pada panel.
+Didalam penggunaannya <b>"WhatsApp BOT"</b> hal yang paling pertamakali dilakukan adalah <b>Scan Barcode</b> pada Panel.
 
 <br />
 
 ## Cara Membuka Panel WhatsApp BOT
 
-1. Start Aplikasi didalam Termux (Ubuntu)
+### 1. Start Aplikasi didalam Termux (Ubuntu)
+#### jika anda berada diluar ubuntu environtment
+I. Masuk ke ubuntu environtment
 ```bash
-a
+cd && ./start-ubuntu.sh
 ```
+II. Start Aplikasi
+```bash
+cd && nodemon
+```
+#### jika anda berada didalam ubuntu environtment
+```bash
+cd && nodemon
+```
+
+### 2. Lihatlah IP lokal anda
+
+### 3. Buka di Browser HP (hanya bisa dibuka di HP)
+
+### 4. Login pada Panel
+password default :
+```bash
+12345678
+```
+bisa anda rubah passwordnya pada file <b>password</b>
 
 <br />
 
 ## Cara Scan Barcode (untuk pertama kali/new session)
 
-```bash
-b
-```
+### 1. Harus menggunakan 2 HP <b></b>
+Hape ke 1 adalah <b>pemilik Whatsapp</b> dan Hape ke 2 adalah bertugas untuk <b>login panel & view barcode</b>
+
+### 2. Tunggu sampai aplikasi mendapatkan session
+setelah mendapatkan session maka akan otomatis merubah tampilan ke dalam panel
 
 <br />
 
-## Cara menambbah Balasan Chat WhatsApp
+## Cara menambah Balasan Chat WhatsApp
+1. klik tombol <b>Tambah Balasan</b>
+2. isi inputan untuk <b>menerima</b> dan <b>balasan</b>
+3. setelah itu klik tombol <b>Tambah</b>
 
-```bash
-c
-```
+Selebihnya anda bisa merubah data dan menghapusnya. Semua yang tersimpan akan dieksekusi jika <b>menerima</b> pesan yang sesuai dengan data yang ada.
 
 <br />
 
-<br />
 
-# DEVELOPMENT MODE
 
-untuk menjalankan project ini secara development dengan cara (windows) buka file <b>webserver.bat</b> lalu isikan port : 8888
+
 
 <br />
 

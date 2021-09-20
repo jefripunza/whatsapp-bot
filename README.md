@@ -42,7 +42,7 @@ Langkah-langkah untuk menggunakan project ini :
 
 Download dan install Aplikasi Android Termux dengan cara <a href="https://f-droid.org/repo/com.termux_117.apk" target="_blank" rel="norefferer">klik disini!</a> <br/>
 
-
+<br />
 
 ## 2. install <b>Ubuntu Desktop Environment</b>
 
@@ -57,11 +57,11 @@ wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/create
 ```bash
 ./start-ubuntu.sh
 ```
-
+<br />
 
 ## 3. install <b>All Requirements</b> in Ubuntu
 
-### Copy dan Paste di dalam terminal Termux
+### Copy dan Paste di dalam terminal Termux (Ubuntu)
 
 ```bash
 wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/install.sh | bash
@@ -73,94 +73,34 @@ wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/instal
 
 # PENGGUNAAN
 
-Didalam penggunaannya terdapat sistem CRUD yang di inisialkan sebagai <b>"execute"</b> yang terdiri dari <b>list, clear, add, edit, & delete</b>.
+Didalam penggunaannya <b>"WhatsApp BOT"</b> hal yang paling pertamakali dilakukan adalah <b>Scan Barcode</b> pada panel.
 
-## List data
+<br />
 
-```javascript
-function getData() {
-  const data = JSON.parse(
-    $.ajax({
-      type: "GET",
-      url: url + `?password=${password}&execute=list`,
-      async: false,
-    }).responseText
-  );
-  if (data.success) {
-    return data.data;
-  } else {
-    return {
-      message: "request error!",
-    };
-  }
-}
+## Cara Membuka Panel WhatsApp BOT
+
+1. Start Aplikasi didalam Termux (Ubuntu)
+```bash
+a
 ```
 
-## Clear data
+<br />
 
-```javascript
-sendRequest("clear", {}, (response) => {
-    if (response.success) {
-        // ok
-    } else {
-        // error
-    }
-});
+## Cara Scan Barcode (untuk pertama kali/new session)
+
+```bash
+b
 ```
 
-## Add data
+<br />
 
-Struktur data yang akan disimpan SANGAT BERGANTUNG pada object yang di kirim! <br/>
-Misal, kita mempunyai object {name: name, message: message} maka struktur yang akan tersimpan di satu data ini mempunyai kolom / key name & message.
+## Cara menambbah Balasan Chat WhatsApp
 
-```javascript
-sendRequest("add", {
-        name,
-        message,
-    }, (response) => {
-        if (response.success) {
-            // ok
-        } else {
-            // error
-        }
-    }
-);
+```bash
+c
 ```
 
-## Edit data
-
-Diwajibkan menggunakan index select menggunakan key <b>"id"</b> dan value nya dari nilai data <b>"_id"</b> untuk memilih data mana yang akan diubah dan menambahkan object lain selain <b>"id"</b> untuk merubah value nya (multi).
-
-```javascript
-sendRequest("edit", {
-        id: "value from _id", // index select
-        message, // change value from key
-    }, (response) => {
-        if (response.success) {
-            // ok
-        } else {
-            // error
-        }
-    }
-);
-```
-
-## Delete data
-
-Diwajibkan menggunakan index select menggunakan key <b>"id"</b> dan value nya dari nilai data <b>"_id"</b> untuk memilih data mana yang akan dihapus.
-
-```javascript
-sendRequest("delete", {
-        id: "value from _id", // index select
-    }, (response) => {
-        if (response.success) {
-            // ok
-        } else {
-            // error
-        }
-    }
-);
-```
+<br />
 
 <br />
 

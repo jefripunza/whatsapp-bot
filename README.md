@@ -36,8 +36,7 @@ WhatsApp kini berkembang pesat seiring dengan waktu yang ada, kebutuhan akan kem
 
 # PERSIAPAN
 
-Langkah-langkah untuk menggunakan project ini :
-untuk user <b>Termux</b> lakukan dari nomor 1 & untuk user <b>Linux Desktop</b> langsung ke nomor 3
+Langkah-langkah persiapan untuk menggunakan project ini untuk user <b>Termux</b> lakukan dari nomor 1 & untuk user <b>Linux Desktop</b> langsung ke nomor 3 :
 
 ## 1. install <b>Termux</b>
 
@@ -69,6 +68,7 @@ wget -qO - https://raw.githubusercontent.com/jefripunza/whatsapp-bot/main/instal
 ```
 
 <br />
+
 ---
 <br />
 
